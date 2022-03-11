@@ -14,9 +14,7 @@
         <div class="row">
             <div class="col-md-8 mx-auto bg-white border p-5">
                 <h2 class="text-center fw-bold text-dark mb-3">Email Sender</h2>
-		<?php if (isset($_GET["status"]) && $_GET["status"] == "1") { ?>
 		<div class='alert alert-success'>Email sent successfully.</div>
-		<?php } ?>
                 <form action="send.php" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-6 mb-3">
